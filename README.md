@@ -13,6 +13,7 @@
 网址：https://ai.baidu.com/sdk#bfr
 
 4.下载百度AI文档中说明的支持包(包名称可能会有差异，若出现没有包的情况，百度搜一下包名称可马上解决)
+<img width="546" alt="image" src="https://github.com/haimianxx/raspberrypiiii/assets/151319710/6fd98b8b-55ad-426f-aeb8-fbc939caf069">
 (**这里还需下载ssl包**)
 
 5.主程序代码为face_detect的main.cpp（具体代码可能随着opencv的版本和百度AI的sdk包略有差异）

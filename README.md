@@ -16,7 +16,7 @@
 
 <img width="546" alt="image" src="https://github.com/haimianxx/raspberrypiiii/assets/151319710/6fd98b8b-55ad-426f-aeb8-fbc939caf069">
 
-(**这里还需下载ssl包**)
+根据上述文档说明，安装相应的包(**这里还需下载ssl包**)
 
 5.主程序代码为face_detect的main.cpp（具体代码可能随着opencv的版本和百度AI的sdk包略有差异）
 

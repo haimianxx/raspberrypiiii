@@ -12,10 +12,10 @@ sudo apt-get install libopencv-dev
 这里还需下载ssl包
 #### 5.主程序代码为face_detect的main.cpp（具体代码可能随着opencv的版本和百度AI的sdk包略有差异）
 #### 6.命令行切换到face_detect文件下，编译时链接opencv的库文件和其他库文件
-##### 我的编译指令为g++ New.cpp -o main -std=c++11 -I/usr/include/opencv4/ -lopencv_core -lopencv_videoio -lopencv_imgproc -lopencv_highgui -lopencv_objdetect -lopencv_imgcodecs  -lcurl -lcrypto -ljsoncpp 
-##### (-I ( i 的大写)  ：指定头文件路径（相对路径或觉得路径，建议相对路径）
-##### -i              ：指定头文件名字 (一般不使用，而是直接放在**.c 文件中通过#include<***.h> 添加)
-##### -L              ：指定连接的动态库或者静态库路径（相对路径或觉得路径，建议相对路径）
-##### -l (L的小写)：指定需要链接的库的名字（链接 libc.a :-lc 链接动态库：libc.so : -lc 注意：-l后面直接添加库名省去“lib”和“.so”或“.a”  ）
+我的编译指令为g++ New.cpp -o main -std=c++11 -I/usr/include/opencv4/ -lopencv_core -lopencv_videoio -lopencv_imgproc -lopencv_highgui -lopencv_objdetect -lopencv_imgcodecs  -lcurl -lcrypto -ljsoncpp 
+1. (-I ( i 的大写)  ：指定头文件路径（相对路径或觉得路径，建议相对路径）
+2. -i              ：指定头文件名字 (一般不使用，而是直接放在**.c 文件中通过#include<***.h> 添加)
+3. -L              ：指定连接的动态库或者静态库路径（相对路径或觉得路径，建议相对路径）
+4. -l (L的小写)：指定需要链接的库的名字（链接 libc.a :-lc 链接动态库：libc.so : -lc 注意：-l后面直接添加库名省去“lib”和“.so”或“.a”  ）
 
 

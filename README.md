@@ -1,7 +1,7 @@
 # 基于opencv(c++版)的人脸识别打卡机
 （Face recognition punch card machine based on opencv）
 
-**配置树莓派环境**
+**树莓派环境配置**
 
 1.打开命令行更新树莓派
  `sudo apt-get update` or `sudo apt-get upgrate`

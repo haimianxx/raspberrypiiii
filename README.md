@@ -4,7 +4,7 @@
 ### 配置树莓派opencv环境
 #### 1.打开命令行更新树莓派
 `sudo apt-get update` or `sudo apt-get upgrate`
-#### 2.下载opencv的package
+#### 2.下载opencv的package 
 `sudo apt-get install libopencv-dev`
 #### 3.下载百度AI的c++sdk包
 网址：https://ai.baidu.com/sdk#bfr

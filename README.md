@@ -1,4 +1,4 @@
-# 基于opencv(c++版)的人脸识别打卡机
+# 基于opencv的人脸识别管理系统
 （Face recognition punch card machine based on opencv）
 
 **树莓派环境配置**
